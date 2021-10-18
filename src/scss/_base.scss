@@ -46,6 +46,14 @@ table {
 .row{
     display: flex;
 }
+.about{
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 33px;
+    p{
+        padding: 36px 245px 145px;
+    }
+}
 .col{
     flex-shrink: 0;
     flex-grow:1;
@@ -62,7 +70,7 @@ table {
     &__background{
         position: absolute;
         min-height: 100%;
-        min-width: 100%;
+        min-width: 102%;
         width:auto;
         left: 50%;
         top: 50%;
@@ -74,10 +82,11 @@ table {
         z-index: 10;
     }
     &__text{
-        padding: 70px 65px 85px;
+        
         background:$white;
         text-align: center;
         position: relative;
+
 
         &:after {
             content: "";
@@ -111,6 +120,16 @@ table {
     position: relative;
     overflow: hidden;
   }
+}
+
+.col__text1{
+    padding: 70px 65px 85px;
+}
+.col__text2{
+    padding: 60px 70px 103px;
+}
+.col__text3{
+    padding: 58px 70px 107px;
 }
 .col-100{
     @extend .col;
