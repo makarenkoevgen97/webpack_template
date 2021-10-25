@@ -1,0 +1,56 @@
+.shop{
+    .col{
+        &__link{
+            &:hover{
+                .col__icon--hidden{
+                    opacity: 1;
+                    
+                }
+            }
+        }
+        &__icon--hidden{
+            &.centered{
+                flex-direction: column;
+            }
+        }
+    }
+}
+.reviews{
+    padding: 120px 0 65px;
+
+    &__slider{
+        padding-bottom: 108px;
+        .swiper-pagination{
+            bottom: 0;
+            &-bullet{
+                width: 11px;
+                height: 11px;
+                border: 1px solid #c9c9c9;
+                background: none;
+                opacity: 1;
+                &-active{
+                    @extend .swiper-pagination-bullet;
+                    background: #a9afb3;
+                    border-color: #a9afb3;
+
+                }
+            }
+        }
+    }
+}
+.black-button{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #282f35;
+}
+.button{
+    padding: 20px 55px 18px;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #93979a;
+    color: $white;
+    background-color: #282f35;
+}
+.button:hover{
+    background-color: rgba(108, 194, 158, 0.8);
+}
