@@ -3,6 +3,10 @@
     img{
         padding-top: 110px;
         padding-bottom: 40px;
+
+        @include screen(768){
+            padding-top: 60px;
+        }
     }
 }
 .contact h5{
@@ -20,6 +24,10 @@
     text-align: center;
         padding-bottom: 111px;
         padding-right: 10px;
+
+        @include screen(768){
+            padding-bottom: 60px;
+        }
     }
 
 .button1 {
@@ -32,6 +40,18 @@
     padding: 22px 45px;
     width: 126px;
     background-color: rgba(108, 194, 158, 0.8);
+    @include screen(452){
+        font-size: 20px;
+        line-height: 21px;
+        width: 100px;
+        padding: 20px 30px;
+    }
+    @include screen(350){
+        font-size: 20px;
+        line-height: 21px;
+        width: 80px;
+        padding: 12px 20px;
+    }
     
 }
   

@@ -17,6 +17,9 @@
 }
 .reviews{
     padding: 120px 0 65px;
+    @include screen(768){
+        padding: 70px 0 65px;
+    }
 
     &__slider{
         padding-bottom: 108px;
@@ -42,6 +45,11 @@
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: #282f35;
+    
+    @include screen(768){
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 .button{
     padding: 20px 55px 18px;
