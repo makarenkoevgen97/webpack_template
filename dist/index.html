@@ -5,24 +5,32 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Bicycle</title>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <link href="css/style.css" rel="stylesheet"></head>
 <body>
     <div class="wrapper">
         <section id="banner" class="banner">
             <header class="header">
                 <div class="container">
+                    <a href="" class="navigation__logo-mobile">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <span class="header__mobile-menu">
+                        <img src="images/logo-mobile.png" alt="mobole-logo">
+                    </span>
                     <nav class="navigation">
                         <ul class="navigation__left">
                             <li><a href="#about">about us</a> </li>
                             <li><a href="#work">work</a></li>
                         </ul>
                         <a href="" class="navigation__logo">
-                            <img src="images/Logo.png">
+                            <img src="images/logo.png" alt="logo">
                         </a>
                         <ul class="navigation__right">
                             <li><a href="#shop">shop</a> </li>
                             <li><a href="#contact">contact</a></li>
                         </ul>
+                        <span class="navigation__close"></span>
                     </nav>
                 </div>
             </header>
@@ -83,7 +91,7 @@
                     </div>
                     <div class="coll-33">
                         <div class="col__text3">
-                            <img src="images/text22.png" alt="text_icon">
+                            <img src="images/text3.png" alt="text_icon">
                             <h4>La Boriosa</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
                         </div>
@@ -96,9 +104,179 @@
                         <img class="col__background" src="images/work31.jpg" alt="work">
                     </div>
                 </div>
+                </div>
+            </section>
+            <section id="shop">
+                <div class="container">
+                    <div class="reviews">
+                <div class="swiper reviews__slider">
+                    <div class="swiper-wrapper">    
+
+                      <div class="swiper-slide">
+                          <div class="swiper-social">
+                              <a href="/" class="swiper-img">
+                                <img src="images/swiper-img.png" alt="swiper-img"></a>
+                          </div>
+                            <div class="swiper-autor">
+                            <div class="autor">AOD New York  @aod </div>
+                            <div class="autor-time">/  35 min</div>
+                            </div>
+                            <div class="swiper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio<br> porttitor, dictum turpis vitae, pretium ante amet.</div>
+                      </div>
+
+                      <div class="swiper-slide">
+                          <div class="swiper-social">
+                              <a href="/" class="swiper-img">
+                                <img src="images/swiper-img.png" alt="swiper-img"></a>
+                          </div>
+                            <div class="swiper-autor">
+                            <div class="autor">AOD New York  @aod </div>
+                            <div class="autor-time">/  35 min</div>
+                            </div>
+                            <div class="swiper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio<br> porttitor, dictum turpis vitae, pretium ante amet.</div>
+                      </div>
+                      
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                </div>         
+            </div>
+
+            <div class="shop">
+                <div class="row">
+                    <div class="col-33">
+                        <div class="row">
+                            <div class="col-50 centered">
+                               <a href="#" class="col__link">
+                                    <img class="col__background" src="images/shop1.jpg" alt="shop">
+                                <div class="col__icon--hidden centered">
+                                    <img src="images/shop-icon.png" alt="shop-icon">
+                                    <div>Shop now</div>
+                                </div>
+                               </a>
+                            </div>
+                            <div class="col-50">
+                                <a href="#" class="col__link">
+                                    <img class="col__background" src="images/shop2.jpg" alt="shop">
+                                <div class="col__icon--hidden centered">
+                                    <img src="images/shop-icon.png" alt="shop-icon">
+                                    <div>Shop now</div>
+                                </div>
+                               </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100">
+                                <a href="#" class="col__link">
+                                    <img class="col__background" src="images/shop3.jpg" alt="shop">
+                                <div class="col__icon--hidden centered">
+                                    <img src="images/shop-icon.png" alt="shop-icon">
+                                    <div>Shop now</div>
+                                </div>
+                               </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33 col--fullheight">
+                        <div class="row">
+                            <div class="col-50"><a href="#" class="col__link">
+                                <img class="col__background" src="images/shop4.jpg" alt="shop">
+                            <div class="col__icon--hidden centered">
+                                <img src="images/shop-icon.png" alt="shop-icon">
+                                <div>Shop now</div>
+                            </div>
+                           </a>
+                        </div>
+                            <div class="col-50"><a href="#" class="col__link">
+                                <img class="col__background" src="images/shop5.jpg" alt="shop">
+                            <div class="col__icon--hidden centered">
+                                <img src="images/shop-icon.png" alt="shop-icon">
+                                <div>Shop now</div>
+                            </div>
+                           </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="row">
+                            <div class="col-100"><a href="#" class="col__link">
+                                <img class="col__background" src="images/shop9.jpg" alt="shop">
+                            <div class="col__icon--hidden centered">
+                                <img src="images/shop-icon.png" alt="shop-icon">
+                                <div>Shop now</div>
+                            </div>
+                           </a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-50"><a href="#" class="col__link">
+                                <img class="col__background" src="images/shop7.jpg" alt="shop">
+                            <div class="col__icon--hidden centered">
+                                <img src="images/shop-icon.png" alt="shop-icon">
+                                <div>Shop now</div>
+                            </div>
+                           </a></div>
+                           <div class="col-50"><a href="#" class="col__link">
+                            <img class="col__background" src="images/shop8.jpg" alt="shop">
+                        <div class="col__icon--hidden centered">
+                            <img src="images/shop-icon.png" alt="shop-icon">
+                            <div>Shop now</div>
+                        </div>
+                       </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black-button centered">
+                <a href="#" class="button">
+                    DISCOVER THE SHOP
+                  </a>
+            </div>
+
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <a href="#" >
+                <img src="images/logo.png" alt="logo"></a>
+                <h5>Stay on the saddle!</h5>
+                <div class="contact__row">
+                <div class="contact__form">
+                    <input type="text" placeholder="enter your email..." name="email">
+                </div>
+                <input type="submit" value="GO" name="submit" class="button1">
+            </div>
 
             </div>
         </section>
+
+    <footer>
+        <div class="footer">
+        <div class="row__footer">
+            <div class="col-331__address">
+                <address>
+                    <p>AOD New York</p>
+                    <p>2250 Lexington Avenue</p>
+                    <p>New York, NY 10035 <a href="mailto:info@domain.com">info@domain.com</a></p>
+                    
+                </address>
+            </div>
+            <div class="col-331__social">
+                <div class="row">
+                    <div class="col-331__images"><img src="images/twitter.png" alt="footer"></div>
+                    <div class="col-331__images"><img src="images/facebook.png" alt="footer"></div>
+                    <div class="col-331__images"><img src="images/p.png" alt="footer"></div>
+                </div>
+            </div>
+            <div class="col-331__handcraft">
+                <div class="row__footer2">
+                    <div class="col-501"><i>Handcrafted by </i></div>
+                    <div class="col-501"><img src="images/footer-yebo.png" alt="footer"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
     </div>
 <script type="text/javascript" src="js/main.min.js"></script></body>
 </html>
